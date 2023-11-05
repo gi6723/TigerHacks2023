@@ -9,5 +9,5 @@ login_manager = LoginManager(app)
 @app.route('/')
 
 def home():
-    return "Hello world"
+    return render_template('layout.html')
 
