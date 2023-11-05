@@ -1,6 +1,5 @@
-from flask import Flask, render_template
-
-app = Flask(__name__)
+from flask import render_template
+from barhopper import app
 
 @app.route("/")
 @app.route('/home')
